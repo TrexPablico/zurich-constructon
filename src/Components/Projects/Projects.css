@@ -1,0 +1,59 @@
+.card .image-box {
+  height: 250px;
+}
+
+.card {
+  border-radius: 8px 8px 0 0;
+}
+.card .image-box img {
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+.profile-details .name {
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile-details .job {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+.swiper-wrapper {
+  padding: 25px 0;
+}
+.swiper-container .swiper-button-prev,
+.swiper-container .swiper-button-next {
+  background-color: rgba(240, 240, 240, 0.7); /* Light gray with 70% opacity */
+  color: #f59921; /* Black text color */
+  border-radius: 50%; /* Rounded shape */
+  padding: 30px; /* Padding around the button */
+  font-size: 20px; /* Font size */
+  border: none; /* Remove default border */
+}
+
+/* Optional: Hover and active states */
+.swiper-container .swiper-button-prev:hover,
+.swiper-container .swiper-button-next:hover,
+.swiper-container .swiper-button-prev:focus,
+.swiper-container .swiper-button-next:focus {
+  background-color: rgba(
+    200,
+    200,
+    200,
+    0.9
+  ); /* Darker background on hover/focus */
+}
+.swiper-container .swiper-pagination-bullet {
+  background-color: #ffa500; /* Light orange color */
+  width: 8px; /* Adjust bullet size */
+  height: 8px; /* Adjust bullet size */
+  margin: 0 8px; /* Adjust space between bullets */
+}
+
+.swiper-container .swiper-pagination-bullet-active {
+  background-color: #ffa500; /* Active bullet color */
+}
