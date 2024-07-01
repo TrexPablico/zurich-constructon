@@ -17,6 +17,7 @@
   position: relative;
 }
 .caption {
+  width: 300px;
   border-radius: 10px;
   position: absolute;
   top: 0;
