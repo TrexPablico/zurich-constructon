@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 .service img {
   width: 300px;
@@ -44,7 +45,7 @@
   opacity: 1;
   padding-top: 0;
 }
-@media (max-width: 650px) {
+@media (max-width: 900px) {
   .services {
     flex-direction: column;
   }

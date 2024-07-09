@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-between;
   width: 90%;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 .about-left {
   flex-basis: 40%;
@@ -14,19 +15,23 @@
 .about-img {
   width: 400px;
   border-radius: 10px;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 .about-h3 {
   font-size: 50px;
   font-weight: 600;
   font-weight: 16px;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 .about h2 {
   font-size: 35px;
   margin: 10px 0;
   max-width: 400px;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 .about p {
   margin-bottom: 15px;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 
 @media (max-width: 1280px) {
@@ -39,5 +44,13 @@
   }
   .about-right {
     flex-basis: 100%;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

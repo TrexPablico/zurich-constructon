@@ -14,6 +14,20 @@ import slider11 from "../../assets/Projects/slider11.png";
 import slider12 from "../../assets/Projects/slider12.png";
 import slider13 from "../../assets/Projects/slider13.png";
 import slider14 from "../../assets/Projects/slider14.png";
+import slider15 from "../../assets/Projects/slider15.png";
+import slider16 from "../../assets/Projects/slider16.png";
+import slider17 from "../../assets/Projects/slider17.png";
+import slider18 from "../../assets/Projects/slider18.png";
+import slider19 from "../../assets/Projects/slider19.png";
+import slider20 from "../../assets/Projects/slider20.png";
+import slider21 from "../../assets/Projects/slider21.png";
+import slider22 from "../../assets/Projects/slider22.png";
+import slider23 from "../../assets/Projects/slider23.png";
+import slider24 from "../../assets/Projects/slider24.png";
+import slider25 from "../../assets/Projects/slider25.png";
+import slider26 from "../../assets/Projects/slider26.png";
+import slider27 from "../../assets/Projects/slider27.png";
+import slider28 from "../../assets/Projects/slider28.png";
 import fire from "../../assets/Projects/icon1.png";
 import hammer from "../../assets/Projects/icon2.png";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
@@ -56,6 +70,42 @@ const Projects = () => {
                 <div className="card-wrapper swiper-wrapper">
                   <div className="card swiper-slide">
                     <div className="image-box">
+                      <img src={slider27} alt="" />
+                    </div>
+                    <div className="profile-details">
+                      <img src="" alt="" />
+                      <div className="name-job">
+                        <h3 className="name">Calumpit Public Market</h3>
+                        <h4 className="job">Structural and Civil Works</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="div-cointainer">
+                <div className="card-wrapper swiper-wrapper">
+                  <div className="card swiper-slide">
+                    <div className="image-box">
+                      <img src={slider28} alt="" />
+                    </div>
+                    <div className="profile-details">
+                      <img src="" alt="" />
+                      <div className="name-job">
+                        <h3 className="name">Calumpit Public Market</h3>
+                        <h4 className="job">Structural and Civil Works</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="div-cointainer">
+                <div className="card-wrapper swiper-wrapper">
+                  <div className="card swiper-slide">
+                    <div className="image-box">
                       <img src={slider1} alt="" />
                     </div>
                     <div className="profile-details">
@@ -88,7 +138,7 @@ const Projects = () => {
                         <h3 className="name">
                           Gentry Manor by Megaworld Amenities
                         </h3>
-                        <h4 className="job">Installation of appliances</h4>
+                        <h4 className="job">Gym room</h4>
                       </div>
                     </div>
                   </div>
@@ -246,7 +296,9 @@ const Projects = () => {
                     <div className="profile-details">
                       <img src="" alt="" />
                       <div className="name-job">
-                        <h3 className="name">Batasan Medical Center</h3>
+                        <h3 className="name">
+                          Batasan Hospital (Rosario Maclang)
+                        </h3>
                         <h4 className="job">
                           Nurse Call System,
                           <br></br>
@@ -299,6 +351,24 @@ const Projects = () => {
                 <div className="card-wrapper swiper-wrapper">
                   <div className="card swiper-slide">
                     <div className="image-box">
+                      <img src={slider26} alt="" />
+                    </div>
+                    <div className="profile-details">
+                      <img src="" alt="" />
+                      <div className="name-job">
+                        <h3 className="name">Clark Asean Villas</h3>
+                        <h4 className="job">Construction of two villas</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="div-cointainer">
+                <div className="card-wrapper swiper-wrapper">
+                  <div className="card swiper-slide">
+                    <div className="image-box">
                       <img src={slider13} alt="" />
                     </div>
                     <div className="profile-details">
@@ -332,6 +402,229 @@ const Projects = () => {
                           <br></br>
                           Supply of Interior Paint System
                         </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="div-cointainer">
+                <div className="card-wrapper swiper-wrapper">
+                  <div className="card swiper-slide">
+                    <div className="image-box">
+                      <img src={slider15} alt="" />
+                    </div>
+                    <div className="profile-details">
+                      <img src="" alt="" />
+                      <div className="name-job">
+                        <h3 className="name">
+                          Gentry Manor by Megaworld Amenities
+                        </h3>
+                        <h4 className="job">
+                          Game Room
+                          <br></br>
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="div-cointainer">
+                <div className="card-wrapper swiper-wrapper">
+                  <div className="card swiper-slide">
+                    <div className="image-box">
+                      <img src={slider16} alt="" />
+                    </div>
+                    <div className="profile-details">
+                      <img src="" alt="" />
+                      <div className="name-job">
+                        <h3 className="name">
+                          Gentry Manor by Megaworld Amenities
+                        </h3>
+                        <h4 className="job">Game Room</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="div-cointainer">
+                <div className="card-wrapper swiper-wrapper">
+                  <div className="card swiper-slide">
+                    <div className="image-box">
+                      <img src={slider17} alt="" />
+                    </div>
+                    <div className="profile-details">
+                      <img src="" alt="" />
+                      <div className="name-job">
+                        <h3 className="name">
+                          Gentry Manor by Megaworld Amenities
+                        </h3>
+                        <h4 className="job">Gym Room</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="div-cointainer">
+                <div className="card-wrapper swiper-wrapper">
+                  <div className="card swiper-slide">
+                    <div className="image-box">
+                      <img src={slider18} alt="" />
+                    </div>
+                    <div className="profile-details">
+                      <img src="" alt="" />
+                      <div className="name-job">
+                        <h3 className="name">
+                          Gentry Manor by Megaworld Amenities
+                        </h3>
+                        <h4 className="job">Business Center</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="div-cointainer">
+                <div className="card-wrapper swiper-wrapper">
+                  <div className="card swiper-slide">
+                    <div className="image-box">
+                      <img src={slider19} alt="" />
+                    </div>
+                    <div className="profile-details">
+                      <img src="" alt="" />
+                      <div className="name-job">
+                        <h3 className="name">
+                          Gentry Manor by Megaworld Amenities
+                        </h3>
+                        <h4 className="job">Business Center</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="div-cointainer">
+                <div className="card-wrapper swiper-wrapper">
+                  <div className="card swiper-slide">
+                    <div className="image-box">
+                      <img src={slider20} alt="" />
+                    </div>
+                    <div className="profile-details">
+                      <img src="" alt="" />
+                      <div className="name-job">
+                        <h3 className="name">
+                          Gentry Manor by Megaworld Amenities
+                        </h3>
+                        <h4 className="job">Business Center</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="div-cointainer">
+                <div className="card-wrapper swiper-wrapper">
+                  <div className="card swiper-slide">
+                    <div className="image-box">
+                      <img src={slider21} alt="" />
+                    </div>
+                    <div className="profile-details">
+                      <img src="" alt="" />
+                      <div className="name-job">
+                        <h3 className="name">
+                          Gentry Manor by Megaworld Amenities
+                        </h3>
+                        <h4 className="job">Day Care</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="div-cointainer">
+                <div className="card-wrapper swiper-wrapper">
+                  <div className="card swiper-slide">
+                    <div className="image-box">
+                      <img src={slider22} alt="" />
+                    </div>
+                    <div className="profile-details">
+                      <img src="" alt="" />
+                      <div className="name-job">
+                        <h3 className="name">
+                          Gentry Manor by Megaworld Amenities
+                        </h3>
+                        <h4 className="job">Day Care</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="div-cointainer">
+                <div className="card-wrapper swiper-wrapper">
+                  <div className="card swiper-slide">
+                    <div className="image-box">
+                      <img src={slider23} alt="" />
+                    </div>
+                    <div className="profile-details">
+                      <img src="" alt="" />
+                      <div className="name-job">
+                        <h3 className="name">
+                          Gentry Manor by Megaworld Amenities
+                        </h3>
+                        <h4 className="job">Installation of Appliances</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="div-cointainer">
+                <div className="card-wrapper swiper-wrapper">
+                  <div className="card swiper-slide">
+                    <div className="image-box">
+                      <img src={slider24} alt="" />
+                    </div>
+                    <div className="profile-details">
+                      <img src="" alt="" />
+                      <div className="name-job">
+                        <h3 className="name">
+                          Gentry Manor by Megaworld Amenities
+                        </h3>
+                        <h4 className="job">Installation of Appliances</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="div-cointainer">
+                <div className="card-wrapper swiper-wrapper">
+                  <div className="card swiper-slide">
+                    <div className="image-box">
+                      <img src={slider25} alt="" />
+                    </div>
+                    <div className="profile-details">
+                      <img src="" alt="" />
+                      <div className="name-job">
+                        <h3 className="name">
+                          Gentry Manor by Megaworld Amenities
+                        </h3>
+                        <h4 className="job">Installation of Appliances</h4>
                       </div>
                     </div>
                   </div>
